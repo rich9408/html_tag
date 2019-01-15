@@ -1,0 +1,38 @@
+p, h1, h3 {
+    color:gray;
+}
+
+.black_bg, .color_white{
+    color:white;
+    background-color: black;
+}
+
+#chocolate >li {
+    color:chocolate;
+}
+
+#lime>li{
+    color:lime;
+}
+
+/* table td {
+    color:olive;
+} */
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.red + div{
+    background-color: purple;
+}
+
+/* 실제로는 클래스, 아이디 값으로 주는게 명확하다. */
+
+table a +tr > td{
+    color:salmon;
+}
